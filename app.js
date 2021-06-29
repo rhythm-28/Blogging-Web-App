@@ -6,7 +6,6 @@ const mongoose = require("mongoose");
 
 // creating databasw
 // hiding url for security reasons
-mongoose.connect("mongodb+srv://admin-rhythm:Rhythm28@cluster0.5zi2u.mongodb.net/blogsDB", { useNewUrlParser: true , useUnifiedTopology: true, useFindAndModify: false});
 
 const homeStartingContent = "Welcome to my the best blogging website in the world. To compose your blog, click on the compose button in the navigation bar. This is the home page of our website. It displays all the blogs written by our users. A seperate page is created for each blog. Feel free to write your experiences. Unlike social media platforms and other blogging websites, we don't store the identity of our users. We believe in freedom of expression.";
 
